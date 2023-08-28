@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: system-ui;
+    display: grid;
+    place-content: center; /* Este funciona con display grid y a su vez lo que hace es coger SOLO EL CONTENIDO y ponerlo al centro */
+    min-height: 100vh;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
